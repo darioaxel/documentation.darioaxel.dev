@@ -13,14 +13,12 @@ class ScannerFile {
       input.useDelimiter(",");
       while(input.hasNextLine()) {
         var linea = input.nextLine();
-        System.out.println(linea.split(";").length);
+        System.out.println("tamaño " + linea.split(";").length + " - " + linea);
       }
+      // Cerramos el objeto Scanner
+      input.close();
     } catch (FileNotFoundException e) {
       e.printStackTrace();
     }
-      
-  
-    // Cerramos el objeto Scanner
-    // input.close();
   }
 }
