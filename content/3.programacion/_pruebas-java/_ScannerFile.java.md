@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-class ScannerFile {
+class _ScannerFile {
   public static void main(String[] args) {
 
     // Creamos un objeto de la case Scanner que leerá desde la entrada del sistema, usando la coma como separador
